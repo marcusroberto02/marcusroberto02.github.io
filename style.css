@@ -1,0 +1,211 @@
+/* farvekoder */
+.bg-grey {
+  background-color: #E0E0E0;
+}
+
+.bg-blue {
+  background-color: #02529C;
+}
+
+.bg-lightblue {
+  background-color: #66B2FF;
+}
+
+.text-white{
+  color: white;
+
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.container-fluid {
+  padding: 30px 25px;
+}
+
+#iframe2 {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #iframe1 {
+    display: none;
+  }
+  #iframe2 {
+    display: block;
+  }
+  .intrinsic-container-16x9 {
+    padding-bottom: 0%;
+  }
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.equal {
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+
+}
+
+.name {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  div.logofront {
+    text-align: center;
+  }
+  h1.title {
+    text-align: center;
+  }
+  img.small {
+    text-align: center;
+  }
+  .name {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 992px) {
+  h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px), (min-width: 1350px) {
+  h4 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1100px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 950px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 767px) {
+  h3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px), (min-width: 1350px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.small {
+  height: 80%;
+  width: 80%;
+}
+
+.big {
+  height: 100%;
+  width: 100%;
+}
+
+.fixed-text-h5 {
+  font-size: 24px;
+}
+
+.round-border {
+  border-radius: 40px;
+}
+
+.logofront {
+  margin-left: 15px
+}
+
+
+.title {
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+}
+
+
+a.buttons {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  /* position: absolute; */
+}
+
+a.buttons:hover {
+  background-color: grey;
+}
+
+a.button1 {
+  background-color: yellow;
+}
+
+a.button2 {
+  background-color: red;
+}
+
+.logo-small {
+    color: 	#364b83; /* #68a8de; Lys blå*/
+    font-size: 50px;
+}
+.logo {
+    color: #364b83; /* #68a8de; Lys blå */
+    font-size: 100px;
+}
